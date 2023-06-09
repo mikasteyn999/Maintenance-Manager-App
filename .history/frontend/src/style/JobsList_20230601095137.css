@@ -1,0 +1,12 @@
+.jobs-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.jobs-header {
+    font-size: xx-large;
+    padding: 5%;
+    font-weight: 600;
+    color: rgb(112, 112, 112);
+}

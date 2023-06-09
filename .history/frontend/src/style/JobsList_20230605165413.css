@@ -1,0 +1,97 @@
+.jobs-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.jobs-header {
+    font-size: xx-large;
+    padding: 5%;
+    font-weight: 600;
+    color: rgb(112, 112, 112);
+}
+
+/* Style the select element */
+.select-sort {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+    font-size: 16px;
+    color: #333;
+    background-color: #f2f2f2;
+    transition: background-color 0.3s ease;
+}
+
+/* Style the options inside the select element */
+.select-sort option {
+    color: #333;
+    background-color: #f2f2f2;
+}
+
+/* Change the background color of the select when it's focused */
+.select-sort:focus {
+    background-color: #e6e6e6;
+}
+
+.batch-update {
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.batch-update select,
+.batch-update button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5c6ac4;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.batch-update h4,
+.batch-update p {
+  display: block;
+  width: 100%;
+}
+
+
+.batch-update button {
+    background-color: #009688;
+}
+
+.batch-update button:hover {
+    background-color: #00796b;
+}
+
+/* Style the select element */
+.select-filter {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.16);
+    font-size: 16px;
+    color: #333;
+    background-color: #f2f2f2;
+    transition: background-color 0.3s ease;
+    margin: 10px;
+}
+
+/* Style the options inside the select element */
+.select-filter option {
+    color: #333;
+    background-color: #f2f2f2;
+}

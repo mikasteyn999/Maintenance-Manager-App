@@ -1,0 +1,9 @@
+.jobs-list {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.jobs-header {
+    font-size: xx-large;
+}

@@ -1,0 +1,16 @@
+/* App.css */
+
+.app {
+  text-align: center;
+}
+
+.app-title {
+  font-size: 2em;
+  color: #333;
+}
+
+.app-instructions {
+  font-size: 1.2em;
+  color: #666;
+  margin-bottom: 20px;
+}
